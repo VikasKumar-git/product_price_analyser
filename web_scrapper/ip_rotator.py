@@ -1,6 +1,6 @@
 import pyautogui
 import time
-
+from config import *
 
 
 def searchProxySettings():
@@ -62,6 +62,10 @@ def changeProxy(ip_address, port):
     pyautogui.click() 
 
 
+
+
+
+
 searchProxySettings()
 
 ip_address="54.67.125.45"
@@ -87,13 +91,3 @@ changeProxy(ip_address,port)
 
 
 
-#--------------------------------------------------------------------------------------------------------
-# extra commands
-
-
-# pyautogui.press('tab')    
-
-
-# pyautogui.hotkey('ctrl', 's')  
-
-# pyautogui.write(['h', 'e', 'l', 'l', 'o', 'space', 'w', 'o', 'r', 'l', 'd'], interval=0.1)
