@@ -117,6 +117,7 @@ def updateProxiesList():
         with open("proxies.txt","a") as file:
             file.write(f"{ip} \t")
             file.write(f"{port} \n")
+    
 
 def main():
     searchProxySettings()
