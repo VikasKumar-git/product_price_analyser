@@ -1,0 +1,16 @@
+
+searchProxySettings:  """this function searches for proxy settings in the windows search"""
+
+turnOnSetup: """this function turns on the setup option in the proxy settings"""
+
+changeProxy: """ this function takes in ip address and port and changes 
+    the present ip address and port in the settings
+    """
+
+checkProxyWorking: """this function takes input and checks if the ip is working or not"""
+
+
+updateProxiesList: """
+    this function scrapes the latest ip addresses and ports and 
+    updates them to the proxies.txt
+    """
